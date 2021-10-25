@@ -1,11 +1,12 @@
 Package: IHWpaper
 Title: Reproduce figures in IHW paper
-Version: 1.21.0
+Version: 1.21.1
 Authors@R: person("Nikos", "Ignatiadis", email =
         "nikos.ignatiadis01@gmail.com", role = c("aut", "cre"))
 Description: This package conveniently wraps all functions needed to
-        reproduce the figures in the IHW paper (https://www.nature.com/articles/nmeth.3885) and the latest 
-        arXiv preprint available under http://arxiv.org/abs/1701.05179. Thus
+        reproduce the figures in the IHW paper (https://www.nature.com/articles/nmeth.3885) and the data 
+        analysis in https://rss.onlinelibrary.wiley.com/doi/10.1111/rssb.12411,
+        cf. the arXiv preprint (http://arxiv.org/abs/1701.05179). Thus
         it is a companion package to the Bioconductor IHW package.
 Depends: R (>= 3.3), IHW
 License: Artistic-2.0
@@ -17,10 +18,10 @@ Imports: Rcpp, stats, splines, methods, utils, DESeq2,
 VignetteBuilder: knitr
 biocViews: ReproducibleResearch, ExperimentData, RNASeqData,
         ExpressionData
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Suggests: testthat, RColorBrewer, wesanderson, scales, gridExtra,
         BiocStyle, knitr, rmarkdown, airway, locfdr,
-        tidyr, ggbio, latex2exp
+        tidyr, latex2exp
 NeedsCompilation: yes
 Author: Nikos Ignatiadis [aut, cre]
 Maintainer: Nikos Ignatiadis <nikos.ignatiadis01@gmail.com>

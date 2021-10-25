@@ -16,9 +16,9 @@ citEntry(entry="article",
          title = "Covariate powered cross-weighted multiple testing",
          author = personList( as.person("Nikolaos Ignatiadis"),
                               as.person("Wolfgang Huber")),
-         year = 2018,
-         journal = "arXiv",
+         year = 2021,
+         journal = "Journal of the Royal Statistical Society: Series B (Statistical Methodology)",
          textVersion =
-         paste("Nikolaos Ignatiadis and Wolfgang Huber (2018):",
-               "Covariate-powered weighted multiple testing with false discovery rate control.",
-               "arXiv:1701.05179"))
+         paste("Nikolaos Ignatiadis and Wolfgang Huber (2021):",
+               "Covariate powered cross-weighted multiple testing.",
+               "J R Stat Soc Series B, 83: 720-751, doi: 10.1111/rssb.12411"))

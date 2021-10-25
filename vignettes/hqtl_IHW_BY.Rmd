@@ -13,10 +13,10 @@ vignette: >
 
 
 ```{r warning=FALSE, message=FALSE}
-library(ggbio)
 library(dplyr)
 library(IHW)
 library(fdrtool)
+library(ggplot2)
 library(cowplot)
 theme_set(theme_cowplot())
 library(tidyr)
@@ -597,16 +597,5 @@ ggsave(lfdr_bh_panel, filename="by_fdr.pdf", width=3.5,height=2.5)
 ```
 
 
-# Figure of chromosomes 1 and 2
 
-Below we use ggbio to create the ideograms of Human chromosomes 1 and 2.
-
-
-```{r warning=FALSE}
-Ideogram(genome = "hg19", subchr="chr1")
-```
-
-```{r warning=FALSE}
-Ideogram(genome = "hg19", subchr="chr2")
-```
 

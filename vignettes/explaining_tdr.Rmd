@@ -52,7 +52,7 @@ sim_pars <- function(eff_size, pi0){
             tdr_density=tdr_density  ))
 }
 
-````
+```
 
 Helper function to generate plots for different parameter values:
 ```{r warning=F}
